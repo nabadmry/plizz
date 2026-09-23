@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I'm Sorry, My Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <main class="app">
+    <section class="screen active" id="s1">
+      <div class="eyebrow">A little message from my heart</div>
+      <div class="heart-orbit"><span>♥</span></div>
+      <h1>Wait…<br><em>I have something to say.</em></h1>
+      <p class="sub">Just give me one minute, okay?</p>
+      <button class="primary next">Open my heart <span>→</span></button>
+    </section>
+
+    <section class="screen" id="s2">
+      <div class="mini">I know I hurt you.</div>
+      <h2>I’m really<br><em>sorry.</em></h2>
+      <p>I could make excuses, but I don't want to. I know my actions hurt you, and you deserved better from me.</p>
+      <div class="quote">“Sometimes the person you love deserves an apology more than an explanation.”</div>
+      <button class="primary next">Keep reading <span>→</span></button>
+    </section>
+
+    <section class="screen" id="s3">
+      <div class="photo-placeholder">
+        <div class="photo-icon">♡</div>
+        <span>Add your photo here</span>
+        <small>Replace <b>assets/us.jpg</b> with your picture</small>
+      </div>
+      <h2>You mean more to me<br>than my <em>pride.</em></h2>
+      <p>I don't want one bad moment to become a distance between us. I miss your smile, your voice, your little things… all of it.</p>
+      <button class="primary next">One last thing <span>→</span></button>
+    </section>
+
+    <section class="screen" id="s4">
+      <div class="envelope">💌</div>
+      <div class="eyebrow">From me, to you</div>
+      <h2>My apology<br><em>letter.</em></h2>
+      <div class="letter">
+        <p>My love,</p>
+        <p>I’m sorry. Truly.</p>
+        <p>I know saying “sorry” can't instantly fix everything, but I want you to know that I understand why you're hurt. You are important to me, and I never want my words or actions to make you feel otherwise.</p>
+        <p>I’ll do better—not just say it. I want to earn your smile back, slowly and honestly.</p>
+        <p class="sign">Always yours,<br><strong>Me ❤️</strong></p>
+      </div>
+      <button class="primary forgive">Can we start again? <span>♥</span></button>
+    </section>
+
+    <section class="screen final" id="s5">
+      <div class="confetti"></div>
+      <div class="big-heart">♥</div>
+      <h1>Thank you<br><em>for being you.</em></h1>
+      <p>I promise I'll treasure what we have a little more every day.</p>
+      <div class="forever">YOU + ME · ALWAYS</div>
+      <button class="ghost restart">Read it again ↻</button>
+    </section>
+
+    <div class="music">
+      <button id="musicBtn" aria-label="Play music">▶</button>
+      <div>
+        <small>Our song</small>
+        <strong id="songName">Add your song</strong>
+      </div>
+    </div>
+
+    <audio id="audio" loop preload="metadata">
+      <source src="assets/song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="progress"><span id="bar"></span></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
